@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">BD_Android_HTTP</string>
+    <string name="txt_usuario">Usuario</string>
+    <string name="txt_contraseña">Contraseña</string>
+    <string name="hint_usuario">Ingresa tu usuario</string>
+    <string name="hint_contraseña">Ingresa tu contraseña</string>
+    <string name="btn_registrar">Registro</string>
+    <string name="btn_acceder">Acceder</string>
+    <string name="btn_altas">Agregar</string>
+    <string name="btn_bajas">Eliminar</string>
+    <string name="btn_cambios">Modificar</string>
+    <string name="btn_consultas">Buscar</string>
+    <string name="btn_logout">Cerrar Sesión</string>
+    <string name="btn_agregar_alumnos">Agregar Alumnos</string>
+    <string name="hint_num_control">Número de Control</string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="btn_buscar">Buscar</string>
+
+   <string name="txt_num_control">Num. Control: </string>
+   <string name="txt_nombre">Nombre: </string>
+   <string name="txt_pa">Primer Apellido: </string>
+   <string name="txt_sa">Segundo Apellido: </string>
+   <string name="txt_edad">Edad: </string>
+   <string name="txt_semestre">Semestre: </string>
+   <string name="txt_carrera">Carrera: </string>
+
+    <string name="btn_mod_alumnos">Modificar Registro</string>
+
+
+</resources>

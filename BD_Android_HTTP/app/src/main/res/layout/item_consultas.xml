@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="2dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="15dp"
+                android:background="#BA03A9F4">
+
+                <TextView
+                    android:id="@+id/txt_num_control_c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_num_control"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/txt_nombre_c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_nombre"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/txt_pa_c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_pa"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/txt_sa_c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_sa"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/txt_edad_c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_edad"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/txt_semestre_c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_semestre"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/txt_carrera_c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_carrera"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

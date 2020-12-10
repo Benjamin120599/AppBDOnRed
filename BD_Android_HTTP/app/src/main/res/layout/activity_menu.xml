@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_altas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="abrirActivities"
+        android:text="@string/btn_altas"
+        app:icon="@android:drawable/ic_input_add"
+        app:iconPadding="10dp"
+        app:iconTint="@android:color/holo_green_light" />
+
+    <Button
+        android:id="@+id/btn_bajas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="abrirActivities"
+        android:text="@string/btn_bajas"
+        app:icon="@android:drawable/ic_menu_delete"
+        app:iconPadding="10dp"
+        app:iconTint="@android:color/holo_red_dark" />
+
+    <Button
+        android:id="@+id/btn_cambios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="abrirActivities"
+        android:text="@string/btn_cambios"
+        app:icon="@android:drawable/ic_menu_edit"
+        app:iconPadding="10dp"
+        app:iconTint="@android:color/holo_blue_dark" />
+
+    <Button
+        android:id="@+id/btn_consultas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="abrirActivities"
+        android:text="@string/btn_consultas"
+        app:icon="@android:drawable/ic_menu_search"
+        app:iconPadding="10dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_logout"
+
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
